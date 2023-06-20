@@ -1,5 +1,5 @@
 @US01_DBTest
-Feature: Aday öğrenciler sisteme kayıt olabilmelidir.
+Feature: Aday öğrenciler sisteme kayıt olabilmelidir. DB
 
   Scenario Outline: US01_GuestUser
 

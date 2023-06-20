@@ -8,8 +8,8 @@ import org.junit.runner.RunWith;
 @RunWith(Cucumber.class)
 @CucumberOptions(
 
-        tags = "@DBNegative",
-        glue = "stepdefinitions",
+        tags = "@US01Api",
+        glue = {"stepdefinitions","hooks"},
         features = "./src/test/resources/",
         dryRun = false
 )
